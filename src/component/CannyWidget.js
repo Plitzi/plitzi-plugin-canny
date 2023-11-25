@@ -11,7 +11,7 @@ const CannyWidget = forwardRef((props, ref) => {
   const { className, internalProps, boardToken } = props;
   const [assetsLoaded, setAssetsLoaded] = useState(false);
   const {
-    // settings: { previewMode },
+    settings: { previewMode },
     utils: { getWindow },
     contexts: { PluginsContext }
   } = usePlitziServiceContext();
@@ -31,7 +31,7 @@ const CannyWidget = forwardRef((props, ref) => {
   }, [handleAssetsLoaded, registerCustomAssets, unregisterCustomAssets]);
 
   useEffect(() => {
-    if (!boardToken || !assetsLoaded) {
+    if (!boardToken || !assetsLoaded || !previewMode) {
       return;
     }
 

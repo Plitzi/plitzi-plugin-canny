@@ -4449,7 +4449,7 @@ __metadata:
     "@babel/polyfill": ^7.12.1
     "@babel/preset-env": ^7.23.3
     "@babel/preset-react": ^7.23.3
-    "@plitzi/plitzi-sdk": ^0.13.9
+    "@plitzi/plitzi-sdk": ^0.13.10
     "@plitzi/plitzi-ui": ^0.0.3
     "@plitzi/plitzi-webpack": ^0.2.0
     "@pmmmwh/react-refresh-webpack-plugin": ^0.5.11
@@ -4511,9 +4511,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@plitzi/plitzi-sdk@npm:^0.13.9":
-  version: 0.13.9
-  resolution: "@plitzi/plitzi-sdk@npm:0.13.9::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40Plitzi%2Fplitzi-sdk%2F0.13.9%2F89be9045c23a8d7a639f67104a31008397005077"
+"@plitzi/plitzi-sdk@npm:^0.13.10":
+  version: 0.13.10
+  resolution: "@plitzi/plitzi-sdk@npm:0.13.10::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40Plitzi%2Fplitzi-sdk%2F0.13.10%2Fd04d9fd38b6b288034f399d39635688736be2cd7"
   dependencies:
     "@apollo/client": ^3.8.7
     "@auth0/auth0-react": ^2.2.3
@@ -4531,7 +4531,7 @@ __metadata:
     react-helmet-async: ^2.0.1
     react-router-dom: ^6.20.0
     twig: ^1.17.1
-  checksum: 6d11ff6d3de7a473e3bfdbcb90e2a999a1b9dd2c973fe03a8bdf46d05c46ae9d984cf5cc817c830b03a3aaa20e01ca39fd2260dbcf5dd2e7e3e23113fc3606f1
+  checksum: f1c9c7fc86066d8dc87a6c3fba866f7ec23ebed942390c96d936de5edf623aac79c4bde6ddd7ba9775f8d401a27dc4dc57423a88b09cd14b14f1701504896552
   languageName: node
   linkType: hard
 

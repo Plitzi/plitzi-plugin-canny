@@ -1,13 +1,13 @@
 // Relatives
-import Demo from './Demo';
+import CannyWidget from './CannyWidget';
 import Settings from './Settings';
 
-Demo.type = 'demo';
-Demo.pluginSettings = Settings;
-Demo.version = VERSION;
+CannyWidget.type = 'cannyWidget';
+CannyWidget.pluginSettings = Settings;
+CannyWidget.version = VERSION;
 
 export const plugins = {};
 
 export const version = VERSION;
 
-export default Demo;
+export default CannyWidget;

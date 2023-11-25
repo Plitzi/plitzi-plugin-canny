@@ -13,7 +13,7 @@ const PACKAGE = require('./package.json');
 
 const DESTINATION = path.resolve(__dirname, './dist/');
 
-const PluginName = 'demo';
+const PluginName = 'canny';
 
 const build = (env, args) => {
   const devMode = args.mode !== 'production';

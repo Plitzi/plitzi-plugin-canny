@@ -4434,9 +4434,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@plitzi/plitzi-plugin-template@workspace:.":
+"@plitzi/plitzi-plugin-canny@workspace:.":
   version: 0.0.0-use.local
-  resolution: "@plitzi/plitzi-plugin-template@workspace:."
+  resolution: "@plitzi/plitzi-plugin-canny@workspace:."
   dependencies:
     "@babel/compat-data": ^7.23.3
     "@babel/core": ^7.23.3
@@ -4449,7 +4449,7 @@ __metadata:
     "@babel/polyfill": ^7.12.1
     "@babel/preset-env": ^7.23.3
     "@babel/preset-react": ^7.23.3
-    "@plitzi/plitzi-sdk": ^0.13.8
+    "@plitzi/plitzi-sdk": ^0.13.9
     "@plitzi/plitzi-ui": ^0.0.3
     "@plitzi/plitzi-webpack": ^0.2.0
     "@pmmmwh/react-refresh-webpack-plugin": ^0.5.11
@@ -4511,9 +4511,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@plitzi/plitzi-sdk@npm:^0.13.8":
-  version: 0.13.8
-  resolution: "@plitzi/plitzi-sdk@npm:0.13.8::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40Plitzi%2Fplitzi-sdk%2F0.13.8%2F255cc4111338ab8416488106f6afbf1d530ae1db"
+"@plitzi/plitzi-sdk@npm:^0.13.9":
+  version: 0.13.9
+  resolution: "@plitzi/plitzi-sdk@npm:0.13.9::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40Plitzi%2Fplitzi-sdk%2F0.13.9%2F89be9045c23a8d7a639f67104a31008397005077"
   dependencies:
     "@apollo/client": ^3.8.7
     "@auth0/auth0-react": ^2.2.3
@@ -4531,7 +4531,7 @@ __metadata:
     react-helmet-async: ^2.0.1
     react-router-dom: ^6.20.0
     twig: ^1.17.1
-  checksum: 3a67fa2b3c77236b09773ceb06ec990eed4a8870a1c672d67d79df80d2ab2924e055fa02b68dd3646c990efa2dccae5d47ddad90306fee035e9f10b0d263f0e5
+  checksum: 6d11ff6d3de7a473e3bfdbcb90e2a999a1b9dd2c973fe03a8bdf46d05c46ae9d984cf5cc817c830b03a3aaa20e01ca39fd2260dbcf5dd2e7e3e23113fc3606f1
   languageName: node
   linkType: hard
 

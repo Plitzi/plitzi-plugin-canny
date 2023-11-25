@@ -4,15 +4,15 @@ import { render } from '@testing-library/react';
 import { PlitziServiceProvider } from '@plitzi/plitzi-sdk';
 
 // Relatives
-import Demo from './Demo';
+import CannyWidget from './CannyWidget';
 
-describe('Demo', () => {
+describe('CannyWidget', () => {
   it('should render successfully', () => {
     const ref = { current: null };
 
     const BaseElement = render(
       <PlitziServiceProvider value={{ settings: { previewMode: true } }}>
-        <Demo ref={ref} />
+        <CannyWidget ref={ref} />
       </PlitziServiceProvider>
     );
 

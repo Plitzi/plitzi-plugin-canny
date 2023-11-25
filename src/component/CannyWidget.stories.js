@@ -3,13 +3,13 @@ import React, { useRef, useState } from 'react';
 import PlitziSdk, { PlitziServiceProvider } from '@plitzi/plitzi-sdk';
 
 // Relatives
-import Demo from './Demo';
+import CannyWidget from './CannyWidget';
 import Settings from './Settings';
 
 export default {
-  title: 'Example/Demo',
+  title: 'Example/CannyWidget',
   decorators: [],
-  component: Demo,
+  component: CannyWidget,
   argTypes: {}
 };
 
@@ -41,11 +41,11 @@ const schema = {
     '5f47e7ca8294097d8b0a1715': {
       id: '5f47e7ca8294097d8b0a1715',
       attributes: {
-        content: 'Testing'
+        boardToken: '3187e9f9-6cb8-12a8-77f6-648536824478'
       },
       definition: {
-        label: 'Demo',
-        type: 'demo',
+        label: 'CannyWidget',
+        type: 'cannyWidget',
         description: '',
         parentId: '5f544375ced80ed16f382b7b',
         styleSelectors: {
@@ -60,8 +60,8 @@ const schema = {
 export const WithHoc = () => (
   <PlitziSdk offlineMode offlineData={{ schema }}>
     <PlitziSdk.Plugin
-      renderType="demo"
-      component={Demo}
+      renderType="cannyWidget"
+      component={CannyWidget}
       assets={[
         {
           type: 'text/css',
@@ -76,8 +76,8 @@ export const WithHoc = () => (
 export const WithHocNoPreview = () => (
   <PlitziSdk offlineMode offlineData={{ schema }} previewMode={false}>
     <PlitziSdk.Plugin
-      renderType="demo"
-      component={Demo}
+      renderType="cannyWidget"
+      component={CannyWidget}
       assets={[
         {
           type: 'text/css',
@@ -91,7 +91,7 @@ export const WithHocNoPreview = () => (
 
 export const WithHocNoIframe = () => (
   <PlitziSdk offlineMode renderMode="raw" offlineData={{ schema }}>
-    <PlitziSdk.Plugin renderType="demo" component={Demo} />
+    <PlitziSdk.Plugin renderType="cannyWidget" component={CannyWidget} />
   </PlitziSdk>
 );
 
@@ -104,13 +104,13 @@ export const ComponentRender = () => {
         settings: { previewMode: true }
       }}
     >
-      <Demo ref={ref} />
+      <CannyWidget ref={ref} />
     </PlitziServiceProvider>
   );
 };
 
 ComponentRender.args = {
-  ...Demo.defaultProps
+  ...CannyWidget.defaultProps
 };
 
 export const ComponentSettings = args => {

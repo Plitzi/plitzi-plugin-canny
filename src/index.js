@@ -1,4 +1,4 @@
 // Relatives
-import Demo from './component';
+import CannyWidget from './component';
 
-export { Demo };
+export { CannyWidget };

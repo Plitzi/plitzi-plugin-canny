@@ -1,9 +1,9 @@
 {
-  "demo": {
+  "cannyWidget": {
     "attributes": {},
     "definition": {
-      "label": "Demo",
-      "type": "demo",
+      "label": "Canny Widget",
+      "type": "cannyWidget",
       "bindings": {},
       "styleSelectors": {
         "base": ""
@@ -19,7 +19,7 @@
       "itemsNotAllowed": []
     },
     "bindingsAllowed": {
-      "attributes": [{ "path": "content", "label": "Content" }],
+      "attributes": [{ "path": "boardId", "label": "Board ID" }],
       "style": [],
       "initialState": [
         { "path": "visibility", "label": "Visibility" },
@@ -27,10 +27,13 @@
       ]
     },
     "defaultStyle": {
-      "name": "Demo",
+      "name": "CannyWidget",
       "displayMode": "desktop",
       "style": {
-        "base": {}
+        "base": {
+          "width": "500px",
+          "height": "300px"
+        }
       }
     }
   }

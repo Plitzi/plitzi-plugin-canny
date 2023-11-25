@@ -1,5 +1,5 @@
 // Packages
-import React from 'react';
+import React, { createContext } from 'react';
 import { render } from '@testing-library/react';
 import { PlitziServiceProvider } from '@plitzi/plitzi-sdk';
 
@@ -11,7 +11,15 @@ describe('CannyWidget', () => {
     const ref = { current: null };
 
     const BaseElement = render(
-      <PlitziServiceProvider value={{ settings: { previewMode: true } }}>
+      <PlitziServiceProvider
+        value={{
+          settings: { previewMode: true },
+          utils: { getWindow: () => window },
+          contexts: {
+            PluginsContext: createContext({ registerCustomAssets: () => {}, unregisterCustomAssets: () => {} })
+          }
+        }}
+      >
         <CannyWidget ref={ref} />
       </PlitziServiceProvider>
     );

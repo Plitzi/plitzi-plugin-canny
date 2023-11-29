@@ -20,7 +20,7 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@babel/compat-data": "^7.23.3",
+    "@babel/compat-data": "^7.23.5",
     "@babel/core": "^7.23.3",
     "@babel/eslint-parser": "^7.23.3",
     "@babel/helper-builder-react-jsx-experimental": "^7.12.11",

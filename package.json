@@ -33,7 +33,7 @@
     "@babel/preset-react": "^7.23.3",
     "@plitzi/plitzi-webpack": "^0.2.0",
     "@pmmmwh/react-refresh-webpack-plugin": "^0.5.11",
-    "@storybook/addon-essentials": "^7.5.3",
+    "@storybook/addon-essentials": "^7.6.7",
     "@storybook/addon-interactions": "^7.5.3",
     "@storybook/addon-links": "^7.5.3",
     "@storybook/blocks": "^7.5.3",

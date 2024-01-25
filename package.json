@@ -21,7 +21,7 @@
   },
   "devDependencies": {
     "@babel/compat-data": "^7.23.3",
-    "@babel/core": "^7.23.3",
+    "@babel/core": "^7.23.9",
     "@babel/eslint-parser": "^7.23.3",
     "@babel/helper-builder-react-jsx-experimental": "^7.12.11",
     "@babel/helper-validator-identifier": "^7.22.20",

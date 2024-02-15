@@ -72,7 +72,7 @@
     "react-is": "^18.2.0",
     "react-refresh": "^0.14.0",
     "sass-loader": "^13.3.2",
-    "storybook": "^7.5.3",
+    "storybook": "^7.6.16",
     "style-loader": "^3.3.3",
     "stylelint": "^15.11.0",
     "stylelint-order": "^6.0.3",
